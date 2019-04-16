@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'RMStartPage';
+  menus = [
+    { label: 'Construção e Projetos', link: './cp' },
+    { label: 'Recursos Humanos', link: './rh' }
+  ]
 }
